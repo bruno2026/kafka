@@ -5,11 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efe5103b-9d56-45e1-9180-16016d000ea5" name="Changes" comment="[feat] create producer and consumer kafka">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/FraudDetectorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-kafka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/ConsumerFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/GsonDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/GsonSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-email/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-email/src/main/java/br/com/alura/ecommerce/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-fraud-detector/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-fraud-detector/src/main/java/br/com/alura/ecommerce/FraudDetectorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-fraud-detector/src/main/java/br/com/alura/ecommerce/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-log/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-log/src/main/java/br/com/alura/ecommerce/LogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-new-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-new-order/src/main/java/br/com/alura/ecommerce/NewOrderMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-new-order/src/main/java/br/com/alura/ecommerce/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/FraudeDetectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/LogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/NewOrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/NewOrderMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/EmailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/FraudDetectorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/LogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/NewOrderMain.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +49,16 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2dRBR74dZix6ERKGFlNgkhxFQDS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.EmailService.executor": "Run",
     "Application.FraudeDetectorService.executor": "Run",
     "Application.LogService.executor": "Run",
@@ -96,6 +115,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="[feat] create producer and consumer kafka" />
     <option name="LAST_COMMIT_MESSAGE" value="[feat] create producer and consumer kafka" />
   </component>
