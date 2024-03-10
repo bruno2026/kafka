@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efe5103b-9d56-45e1-9180-16016d000ea5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/FraudeDetectorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/NewOrderMain.java" afterDir="false" />
+    <list default="true" id="efe5103b-9d56-45e1-9180-16016d000ea5" name="Changes" comment="[feat] create producer and consumer kafka">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/FraudDetectorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/FraudeDetectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/LogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/NewOrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/NewOrderMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +40,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.EmailService.executor": "Run",
     "Application.FraudeDetectorService.executor": "Run",
+    "Application.LogService.executor": "Run",
     "Application.NewOrderMain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.bruno" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -69,6 +73,30 @@
       <option name="presentableId" value="Default" />
       <updated>1709961002392</updated>
     </task>
+    <task id="LOCAL-00001" summary="[feat] create producer and consumer kafka">
+      <option name="closed" value="true" />
+      <created>1710002353956</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710002353956</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[feat] create producer and consumer kafka" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat] create producer and consumer kafka" />
   </component>
 </project>
